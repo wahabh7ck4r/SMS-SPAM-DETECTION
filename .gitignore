@@ -1,0 +1,14 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore OS junk
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Ignore VSCode settings (optional)
+.vscode/
