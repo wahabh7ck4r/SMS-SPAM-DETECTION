@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import string
 import nltk
+nltk.data.path.append('./nltk_data')  # Point to local nltk_data folder
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
